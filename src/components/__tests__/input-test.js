@@ -81,7 +81,6 @@ describe('The <Input /> component', () => {
      *     id="inputSuccess2"
      *     aria-describedby="inputSuccess2Status"
      *   >
-     *   <span class="glyphicon glyphicon-ok form-control-feedback" aria-hidden="true"></span>
      *   <span id="inputSuccess2Status" class="sr-only">(success)</span>
      * </div>
      */

@@ -97,9 +97,6 @@ class Input extends Component {
     return (
       <Row {...this.props} htmlFor={this.props.id}>
         {control}
-        {this.props.showErrors ? (
-          <Icon symbol="remove" className="form-control-feedback" />
-        ) : null}
         {this.props.help ? <Help help={this.props.help} /> : null}
         {this.props.showErrors ? (
           <ErrorMessages messages={this.props.errorMessages} />
